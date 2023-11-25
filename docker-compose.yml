@@ -5,6 +5,6 @@ services:
   api:
     build:
       context: ./spring-test
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
